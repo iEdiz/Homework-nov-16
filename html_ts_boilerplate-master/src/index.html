@@ -10,17 +10,44 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="button-wrapper">
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-    </div>
-    <img src="/assets/images/cat.jpeg" alt="" width="300">
-
-
+    <section class="background" id="js-background">
+        <div class="button-wrapper">
+            <button class="button button1 js-button-1" type="button">Button 1</button>
+            <button class="button button2 js-button-2" type="button">Button 2</button>
+            <button class="button button3 js-button-3" type="button">Button 3</button>
+            <button class="button button4 js-button-4" type="button">Button 4</button>
+            <button class="button button5 js-button-5" type="button">Button 5</button>
+            <button class="button button6 js-button-6" type="button">Button 6</button>
+        </div>
+        <div class="square-wrapper">
+            <div class="square" id="js-square1"></div>
+            <div class="square square__flex" id="js-square2">
+                <h1 class="header" id="js-header-1">Fail</h1>
+            </div>
+            <div class="square" id="js-square3"></div>
+            <div class="square" id="js-square4"></div>
+            <div class="square square__flex" id="js-square5">
+                <h1 class="header js-header-2">0</h1>
+            </div>
+            <div class="square square__flex" id="js-square6">
+                <h1 class="header js-header-3">0</h1>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <div>
+                <button class="button button7 js-button-7" type="button">Button 7</button>
+            </div>
+            <div>
+                <form>
+                    <input type="text" placeholder="Input placeholder" class="footer__input">
+                </form>
+            </div>
+            <div>
+                <h1 class="footer__header">Te parādas teksts</h1>
+            </div>
+        </div>
+    </section>
+    
     <script src="/scripts.js"></script>
 </body>
 </html>
